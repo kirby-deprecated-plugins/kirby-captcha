@@ -1,0 +1,77 @@
+body.grey {
+  background-image: url('../images/robot.png');
+  background-position:  bottom left;
+  background-position:  bottom 24px left 24px;
+  background-repeat: no-repeat;
+}
+
+img {
+  border: 0;
+  border-radius: 4px;
+}
+
+a {
+  float: right;
+  margin: 15px 0 0 15px;
+}
+
+hr {
+  clear: both;
+  margin: 20px 0;
+  width: 100%;
+}
+
+small {
+  display: inline-block;
+  margin: 20px 0 0 0;
+  color: #666;
+}
+
+#captchaError i {
+  font-style: normal;
+}
+
+#captchaError b {
+  display: none;
+  color: #c00;
+  margin: 0 0 20px 0;
+}
+
+#captchaError.show b {
+  display: block;
+}
+
+#captchaError.show i {
+  display: none;
+}
+
+.modal-content {
+  opacity: 0;
+  transition: opacity .5s ease-in;
+}
+
+.field {
+  margin-bottom: 0;
+}
+
+h4 {
+  margin: 0;
+  font-size: 110%;
+}
+
+fieldset {
+  margin: 20px 0;
+}
+
+@media only screen and (max-width: 640px) {
+
+  body.grey {
+    background-image: none;
+  }
+
+  a {
+    float: none;
+    margin: 15px 0 15px 0;
+  }
+
+}
